@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    background-color:rgb(255, 238, 0);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: auto;
+    width: auto;
+    position: fixed;
+    top:0%;
+    left:3%;
+     
+}
+.navlist{
+    display: flex;
+    gap:2.5rem;
+}
+.navlist{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size:18px;
+    
+}
+.ho{
+    display: flex;
+}
+.ho .left{
+    background-color: rgb(77, 29, 29);
+    padding-left: 3rem;
+}
+.ho .right{
+    background-color: #7c5737;
+    justify-content: center;
+    
+}
+.ho .ho_split{
+    width: 50%;
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+}
+.left .cof{
+    color: white;
+}
+.cof h1{
+    font-size: 5rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: .04rem white;
+    letter-spacing: .2rem;
+      
+}
+#im{
+    height:300px;
+    width: 400px;
+    max-width: 600px;
+}
+.image-co{
+     display: flex;
+     justify-content:baseline;
+     gap: 100px;
+     margin-top: auto;
+     background-color: rgb(118, 131, 248);
+     height: 300px;
+     width: auto;
+     left: 20%;
+}
+.image-box img {
+    text-align: center;
+    left: 30px;
+    width: 250px;
+    height: 250px;
+    box-shadow: 2px 2px 2px ;
+}
+ .image-box p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 24px;
+    color: black;
+ }
+.bo1{
+    background-color: aqua;
+}
+.image-co_1{
+    display: flex;
+    justify-content:baseline;
+    gap: 100px;
+    margin-top: auto;
+    background-color: rgb(48, 38, 192);
+    height: 300px;
+    width: auto;
+    left: 20%;
+}
+.image-box_1 img {
+    text-align: center;
+    left: 30px;
+    width: 250px;
+    height: 250px;
+    box-shadow: 2px 2px 2px ;
+}
+ .image-box_1 p {
+    text-align: center;
+    margin-top:auto;
+    font-size: 24px;
+    color: black;
+}
+.image-co_2 {
+    display: flex;
+    justify-content:baseline;
+    gap: 100px;
+    margin-top: auto;
+    background-color: rgb(118, 131, 248);
+    height: 300px;
+    width: auto;
+    left: 20%;
+}
+.image-box_2 img {
+    text-align: center;
+    left: 30px;
+    width: 250px;
+    height: 250px;
+    box-shadow: 2px 2px 2px ;
+}
+ .image-box_2 p {
+    text-align: center;
+    margin-top:auto;
+    font-size: 24px;
+    color: black;
+}
+.bo2{
+    background-color: aqua;
+}
+.me_1{
+    
+    justify-content: center;
+    height:auto;
+    width: auto;
+    font-size: 24px;
+    color: rgb(67, 43, 175);
+}
+.bo3{
+    
+    text-align: center;
+    background-color: rgb(135, 156, 212);
+    color: black;
+    font-size: 24px;
+}
+ 
